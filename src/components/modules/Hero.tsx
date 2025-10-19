@@ -85,7 +85,9 @@ export default function Hero() {
             >
               <motion.a
                 ref={btnRef}
-                href="#features"
+                href="https://www.aishujufenxi.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="relative inline-flex items-center justify-center rounded-md px-6 py-3 text-base font-medium text-background shadow-lg bg-gradient-to-r from-[var(--brand)] to-orange-400 hover:shadow-orange-500/20 transition-shadow duration-300"
                 style={{ x: sx, y: sy }}
                 whileHover={{ scale: 1.03 }}
@@ -98,7 +100,7 @@ export default function Hero() {
                 }}
                 onMouseLeave={() => { mx.set(0); my.set(0); }}
               >
-                立即开始
+                立即体验产品
               </motion.a>
               
               <motion.a

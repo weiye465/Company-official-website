@@ -52,26 +52,6 @@ export default function ProductIntro() {
               ))}
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="mt-8"
-            >
-              <a
-                href="https://www.aishujufenxi.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-md px-6 py-3 text-base font-medium text-background shadow-lg bg-gradient-to-r from-[var(--brand)] to-orange-400 hover:shadow-orange-500/30 transition-shadow"
-              >
-                立即体验产品
-                <svg className="ml-2 h-4 w-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7 17L17 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M8 7H17V16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </a>
-            </motion.div>
           </div>
 
           <div className="md:col-span-6">

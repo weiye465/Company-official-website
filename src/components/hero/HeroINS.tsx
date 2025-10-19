@@ -53,7 +53,9 @@ export default function HeroINS() {
             >
               <motion.a
                 ref={btnRef}
-                href="#security"
+                href="https://www.aishujufenxi.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="relative inline-flex items-center justify-center rounded-md px-6 py-3 text-sm font-medium text-background shadow-sm bg-gradient-to-r from-[var(--brand)] to-orange-400 hover:opacity-95 transition"
                 style={{ x: sx, y: sy }}
                 onMouseMove={(e) => {
@@ -64,7 +66,7 @@ export default function HeroINS() {
                 }}
                 onMouseLeave={() => { mx.set(0); my.set(0); }}
               >
-                立即开始
+                立即体验产品
               </motion.a>
               <a
                 href="#integrations"
