@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function FloatingContact() {
   const [hovered, setHovered] = useState(false);
 
-  const imgSrc = "/rc/code.jpg"; // 点击打开的大图
+  const imgSrc = "/rc/light-code.png"; // 点击打开的大图
   const hoverImgSrc = "/rc/light-code.png"; // 悬浮预览小图
 
   return (
