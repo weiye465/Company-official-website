@@ -59,6 +59,7 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
           <div className="md:col-span-6 lg:col-span-5">
             <motion.h1
+              id="hero-title"
               initial={{ opacity: 0, y: 25 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.3, ease: easeOut }}
